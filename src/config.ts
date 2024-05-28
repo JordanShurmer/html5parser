@@ -16,7 +16,7 @@ function createMap<T>(keys: string, value: T): Record<string, T> {
 }
 
 export const selfCloseTags = createMap<true>(
-  'area,base,br,col,embed,hr,img,input,link,meta,param,source,track,wbr,!doctype,,!,!--',
+  'area,base,basefont,bgsound,br,col,command,embed,frame,hr,image,img,input,keygen,link,meta,param,source,track,wbr,!doctype,,!,!--',
   true,
 );
 
